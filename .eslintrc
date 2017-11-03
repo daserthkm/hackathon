@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "rules": {
+    "key-spacing"                 : 0,
+    "object-curly-spacing"        : [2, "always"],
+    "no-unused-vars"              : [0],
+    "semi"                        : ["error", "never"]
+  }
+}

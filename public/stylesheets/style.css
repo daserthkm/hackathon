@@ -1,0 +1,38 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+#log {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#log > div {
+    display: table-row;
+}
+
+#log > div > span {
+    display: table-cell;
+}
+
+#log .message {
+    width: 60%;
+}
+
+#log .date {
+    width: 170px;
+}
+
+#log_head {
+    background: #efefef;
+}
+
+#log_head > div {
+    border: 1px solid #ccc;
+}

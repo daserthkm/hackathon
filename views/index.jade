@@ -1,0 +1,26 @@
+extends layout
+
+block scripts
+    script.
+        socket.on('chat.new_message', function (data) {
+            var rowDiv = $('<div>')
+            rowDiv.append($('<span>').text(data.id))
+            rowDiv.append($('<span>').text(data.user_id))
+            rowDiv.append($('<span>').text(data.room_id))
+            rowDiv.append($('<span>').html(data.message))
+            rowDiv.append($('<span>').text(data.create_date))
+            rowDiv.append($('<span>').text(data.millisecond))
+            $('#log').append(rowDiv)
+        });
+
+block content
+    h1= title
+    p Welcome to #{title}
+    div#log
+        div#log_head
+            span ID
+            span UserID
+            span RoomID
+            span.message Message
+            span.date CreateDate
+            span Millisecond
