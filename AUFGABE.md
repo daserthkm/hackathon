@@ -66,6 +66,13 @@ Die Verwendung dieser Endpunkte ist freigestellt, solange etwas Vergleichbares u
 * Ebenfalls gilt das gleich, wenn man einen Nutzer wieder aus dem Raum entfernt.
 * Auch dieses Socketevent soll als Nachricht auftauchen.
 
+## Bewertung
+
+Bewertet wird:
+* Design und optische Umsetzung
+* Codequalität
+* Funktionalität
+
 ## Abgabe
 
 * Bitte das fertige Projekt am Ende zippen und auf die USB Sticks kopieren, die später verteilt werden.
