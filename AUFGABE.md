@@ -66,4 +66,7 @@ Die Verwendung dieser Endpunkte ist freigestellt, solange etwas Vergleichbares u
 * Ebenfalls gilt das gleich, wenn man einen Nutzer wieder aus dem Raum entfernt.
 * Auch dieses Socketevent soll als Nachricht auftauchen.
 
+## Abgabe
 
+* Bitte das fertige Projekt am Ende zippen und auf die USB Sticks kopieren, die später verteilt werden.
+* Alternativ kann das Projekt auch auf github veröffentlicht werden. Den Link dazu anschließend an daniel.seifert@heinekingmedia.de senden.
