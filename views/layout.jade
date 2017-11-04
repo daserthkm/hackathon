@@ -6,7 +6,7 @@ html
         script(src='/javascripts/jquery-3.2.1.min.js')
         script(src='/socket.io/socket.io.js')
         script.
-            var socket = io.connect('http://localhost:1420', { transports: ['websocket'] });
+            var socket = io.connect('/', { transports: ['websocket'] });
         block scripts
     body
         block content
