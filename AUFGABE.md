@@ -9,7 +9,7 @@
 * Möglichkeit Räume zu löschen
 * Mitgliederverwaltung von Räumen
 
-### Beispiel
+#### Beispiel
 
 ![alt text](https://raw.githubusercontent.com/daserthkm/hackathon/master/docs/images/example_discord.png)
 
