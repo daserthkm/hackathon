@@ -44,9 +44,9 @@ Das Socketevent dazu soll die Likes an alle Clients dynamisch übertragen, damit
 Da es in erster Linie um eine lokale Anwendung handelt, soll der Chat wie unter normalen Umständen erscheinen. 
 Um unterschiedliche Nachrichtentypen von unterschiedlichen Absender zu erhalten können dazu folgende Chatbefehle erstellt werden, welche man aus dem Eingabefeld mit vorangehendem "/" aufrufen kann:
 
-* Eingabe: /meme - Holt ein Meme von der API /meme und sendet es in den Chat
+* Eingabe: /meme - Holt ein Meme vom Endpoint /random/meme und sendet es in den Chat
   * Hier soll das Bild dem Namen des Meme mit einem anderen User gesendet werden.
-* Eingabe: /chuck - Holt ein Chuck Norris joke von der API und sendet es in den Chat
+* Eingabe: /chuck - Holt ein Chuck Norris joke von /random/chuck und sendet es in den Chat
   * Dies soll eine Nachricht eines anderen Users darstellen
 
 Die Verwendung dieser Endpunkte ist freigestellt, solange etwas Vergleichbares umgesetzt wird.
