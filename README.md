@@ -9,6 +9,15 @@ Node.js 8.9.0 LTS
 * npm run start
 * open http://localhost:5000
 
+#### Note for Windows
+
+The npm command fails on some Windows systems.
+When you get a error on start like: 
+
+`Error: hackathon@1.0.0 start: DEBUG=hackathon:* node ./bin/www`
+
+use the "run.bat" file to start the server.
+
 ## API Reference
 
 * To access the endpoints you need to set the header attribute "Content-Type" to "application/json".
