@@ -14,10 +14,10 @@ Node.js 8.9.0 LTS
 * To access the endpoints you need to set the header attribute "Content-Type" to "application/json".
 * The responses are jsend formated.
 
-### Success 
+#### Success 
 * { status: 'success', data: (object|null) }
 
-### Error 
+#### Error 
 * { status: 'error', message: 'short error message' }
 
 
@@ -36,21 +36,21 @@ Node.js 8.9.0 LTS
 
 ## Payloads
 
-### Chat 
+#### Chat 
 * { "user_id": 1234, "room_id": 1234, "message": "Hello World", attachment_url: "http://example.com/image.png" }
   
-### Room 
+#### Room 
 * { "name": "Test room" }
 
-### User 
+#### User 
 * { "name": "Daniel" }
 
-### Message Like 
+#### Message Like 
 * { "user_id": 1234 }
 
 ## Socket
 
-### Events:
+#### Events:
 
 * chats.cleared - All messages from room removed
   * Payload: { room_id }
