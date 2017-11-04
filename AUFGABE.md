@@ -1,6 +1,6 @@
 ## Aufgabe
 
-1. Baue eine Chatansicht mit folgenden Bereichen:
+#### 1. Baue eine Chatansicht mit folgenden Bereichen:
 * Räume
 * Benutzer
 * Nachrichten
@@ -13,26 +13,26 @@
 
 ![alt text](https://raw.githubusercontent.com/daserthkm/hackathon/master/docs/images/example_discord.png)
 
-2. Verwende diese API für die Einbundung folgender Funktionen:
+#### 2. Verwende diese API für die Einbundung folgender Funktionen:
 * Links die Räume über GET /rooms abfragen
 * Rechts die User über GET /users
 * Mittig die Chatnachrichten des ausgewählten Raums laden - GET /chats/[1234]
 * Per Eingabefeld neue Nachrichten senden - POST /chats/[1234]
 
-3. Socketevents einbinden
+#### 3. Socketevents einbinden
 * Die Ansichten sollen sich dynmisch aktualisieren, wenn die jeweiligen Socketevents getriggert werden.
 * Neuen Nachrichten sollen im Chat unten angehängt werden und automatisch hinscrollen.
 * Der Nutzer hat die Möglichkeit Nachrichten nach zu lesen und damit das automatische Scrollen auszustezen.
 * Das automatische Scrollen wird erst wieder aktiv, wenn man an das Ende des Chats scrollt.
 
-4. Nachrichten
+#### 4. Nachrichten
 
-### Text
+#### Text
 * Einfache Textnachrichten.
 * Links in Nachrichten sollten als solche erkennbar und anklickbar sein.
 * Emojiunterstüzung (Optional)
 
-### Bild
+#### Bild
 * Für diesen Typ soll zum Text eine Bildurl im Chat Payload als attachment_url übergeben werden.
 * Die Nachricht muss im Chat das Bild zusätzlich zum Text darstellen.
 
@@ -40,7 +40,7 @@ Alle Nachrichten sollen über ein Symbol oder ähnlichem geliked werden können 
 Das Socketevent dazu soll die Likes an alle Clients dynamisch übertragen, damit sich die Anzahl der likes dynmisch aktualisiert.
 Die Anzahl sollte in der Nachricht sichbar sein.
   
-5. Chatfunktionen
+#### 5. Chatfunktionen
 
 Da es in erster Linie eine lokale Anwendung ist, soll der Chat wie unter normalen Umständen erscheinen. 
 Um unterschiedliche Nachrichtentypen von unterschiedlichen Absender zu erhalten können dazu folgende Chatbefehle erstellt werden,
@@ -53,7 +53,7 @@ welche man aus dem Eingabefeld mit vorangehendem "/" aufrufen kann:
 
 Die Verwendung dieser Endpunkte ist freigestellt, solange etwas vergleichbares umgesetzt wird.
 
-6. Räume
+#### 6. Räume
 
 * Beim wechseln in einen Raum per Auswahl über die linke Raumliste soll der Chatinhalt im Nachrichtenbereich geladen werden.
 * Es soll aber nur bis zur zuletzt gelesenen Nachricht gescrollt werden, damit man keine Nachrichten übersehen kann.
@@ -61,7 +61,7 @@ Die Verwendung dieser Endpunkte ist freigestellt, solange etwas vergleichbares u
 * Dieser Status brauch nur im localStorage abgelegt zu werden und wird nicht in der API gespeichert.
 * Sollte der localStorage am Anfang leer sein, kann direkt auf die letzte Nachricht gesprungen werden.
 
-7. Mitglieder
+#### 7. Mitglieder
 
 * In die Räume sollen verschiedene User hinzugefügt werden können.
 * Beim Hinzufügen muss im Chat das Socketevent für join als Nachricht erscheinen.

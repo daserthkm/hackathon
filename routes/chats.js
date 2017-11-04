@@ -17,6 +17,7 @@ db.createTable(table, {
   user_id: 'INTEGER',
   room_id: 'INTEGER',
   message: 'TEXT',
+  attachment_url: 'TEXT',
   millisecond: 'INTEGER'
 }).then(() => {
   const messages = [
