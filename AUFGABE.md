@@ -11,7 +11,7 @@
 
 #### Beispiel
 
-![alt text](https://raw.githubusercontent.com/daserthkm/hackathon/master/docs/images/example_discord.png)
+![alt text](https://raw.githubusercontent.com/daserthkm/hackathon/master/docs/images/example_stashcat.png)
 
 #### 2. Verwende diese API für die Einbindung folgender Funktionen:
 * Links die Räume über GET /rooms abfragen
