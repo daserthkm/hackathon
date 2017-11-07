@@ -24,14 +24,6 @@ class Security {
             return map
         }, {})
     }
-
-    hash(text) {
-        if (crypto) {
-            return crypto.createHmac('sha256', '77a613kj4ek4jfh6as4b28fgm499m4hs7')
-                .update(text)
-                .digest('hex');
-        }
-    }
 }
 
 module.exports = new Security()
